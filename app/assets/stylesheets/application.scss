@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ $navbar-default-bg: #323232;
+ $navbar-default-link-hover-bg: white;
+ // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
